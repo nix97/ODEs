@@ -1,0 +1,19 @@
+This app free to modify
+
+Build in Delphi 10.4 Community Edition 
+
+Use two main library(component)
+1. bcParser (evaluation version/free version)
+2. builtin lib TChart 
+
+
+Steps to install & add libray :
+
+1. How to install bcParser :
+-Menu component>Install component>Into new package>browse unit file name: bcParser.pas
+ install into new package(name it TbcParserPkg), finish with notif *.bpl has been installed.
+-Right5 click on *.bpl on Project explorer then Install
+
+
+2. How to add Library bcParser
+Top menu : Tools>option>Language>Delphi>Library>Library Path>browse(Folder bcParser lib)>Save 

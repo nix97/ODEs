@@ -18,7 +18,7 @@ Source code in C#.
 <br>
 **3.Linear Shooting Method**
 
-To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a , b], subinterval M by using the Runge-Kutta method of order 4.
+To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a , b], subinterval M by using the Runge-Kutta method of order 4.\
 Source code in Lazarus/pascal.
 <br>
 <br>
@@ -30,6 +30,6 @@ To solving initial value problem (ivp) second-order Ordinary Differential Equati
 **5. ODEs Solver**
 
 First-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
-To approximate the solution of the initial value problem (ivp) y ' =f(x,y) with y(a)=yo over [a,b] and subinterval M.
+To approximate the solution of the initial value problem (ivp) y ' =f(x,y) with y(a)=yo over [a,b] and subinterval M.\
 Source code in Delphi.
 

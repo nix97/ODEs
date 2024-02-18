@@ -26,6 +26,7 @@ Source code in Lazarus/pascal.
 
 To solving initial value problem (ivp) second-order Ordinary Differential Equation(ODE) using Runge-Kutta-Fehlberg formula (RKF45). This formula got advantages than the RK4 classic, RKF45 have Error Estimation. In this python project, use math parser pymep, so we can input equation at runtime.
 ``` python
+from pymep.realParser import eval
 # e.g. slope g1
 var = {"x": x[k], "y": Yk[k], "z":
       Yk_dash[k]}

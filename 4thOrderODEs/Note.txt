@@ -1,0 +1,38 @@
+Notes :
+
+Fourth-Order Ordinary Differential Equation(ODE) Solver.
+y '''' = f (t, y, y', y'',y ''') 
+
+
+As the result we got y, y' ,y '' and y ''' at t (plot in graph)
+ 
+-Sourcecode available in Lazarus
+-build in Lazarus 3.2
+-Using component : 
+   -Art formula as math expression parser(free version).
+   -Chart as graph viewer (built-in).
+-Download file : 4thOrderODEsScLazarus.rar at https://bitbucket.org/nixz97/nix/downloads/ 
+-Feel free to use & modify.
+
+
+How to install Art formula(math parser) :
+
+-Package included(folder formula).  
+-At menu package.
+-Open package file (load *.lpk) at folder formula\source\aformula.lpk
+-Compile then install
+
+
+Tips:
+
+-To slimming the exe file, can use strip *.exe (example: strip ODEs4Order.exe) at console. 
+-For Complete Formula at file RK4Formula.docx 
+
+by Lukas Setiawan 2024 (e-mail:lukassetiawan@yahoo.com)
+
+
+
+Happy coding coy....
+
+
+

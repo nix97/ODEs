@@ -1,0 +1,43 @@
+Notes :
+
+System of Third-Order Ordinary Differential Equations(ODEs) Solver.
+
+-Check formula on file : System3rdOrderODERK4.docx
+
+-We have three equations (x''' =  ; y''' = ; z''' = ), three variable(x,y,z)
+
+-As the result we got x, y, z, x', y', z', x'', y'' , z'' at  t(time), then plot in graph.
+ 
+-Sourcecode available in Lazarus
+
+-build in Lazarus 3.2
+
+-Using component : 
+   -Art formula as math expression parser(free version).
+   -Chart as graph viewer (built-in).
+
+-Download file : System3rdOrderODEsScLazarus.rar at https://bitbucket.org/nixz97/nix/downloads/ 
+
+-Feel free to use & modify.
+
+
+
+-Component included(Art formula on folder formula).  
+-How to install Art formula(as math parser) :
+  -At menu package.
+  -Open package file (load *.lpk) at folder formula\source\aformula.lpk
+  -Compile then install
+
+
+Tips:
+
+-To smaller the exe file size, can use strip *.exe (example: strip proSystemODEs.exe) at console.
+-When rebuild project, the *.exe size approx 55 MB, after "strip" become approx 6 MB 
+
+
+by Lukas Setiawan Sept 24, 2024 (e-mail:lukassetiawan@yahoo.com)
+
+
+
+Happy coding coy....
+

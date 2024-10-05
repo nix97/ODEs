@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="H:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1482330472"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiE:\234\Data 2012\Lazarus\System3rdOrderODEs_withAxis\lib\x86_64-win64&quot; -FuH:\lazarus\components\tachart\lib\x86_64-win64\win32 -FuH:\lazarus\components\ideintf\units\x86_64-win64\win32 -FuH:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 &quot;-FuE:\234\Data 2012\Delphi\Zip Files\formula\source\lib\x86_64-win64&quot; -FuH:\lazarus\lcl\units\x86_64-win64\win32 -FuH:\lazarus\lcl\units\x86_64-win64 -FuH:\lazarus\components\freetype\lib\x86_64-win64 -FuH:\lazarus\components\buildintf\units\x86_64-win64 -FuH:\lazarus\components\lazutils\lib\x86_64-win64 -FuH:\lazarus\packager\units\x86_64-win64 &quot;-FuE:\234\Data 2012\Lazarus\System3rdOrderODEs_withAxis\&quot; &quot;-FUE:\234\Data 2012\Lazarus\System3rdOrderODEs_withAxis\lib\x86_64-win64\&quot; &quot;-FEE:\234\Data 2012\Lazarus\System3rdOrderODEs_withAxis\&quot; &quot;-oE:\234\Data 2012\Lazarus\System3rdOrderODEs_withAxis\proSystemODEs.exe&quot; -dLCL -dLCLwin32 proSystemODEs.lpr"/>
+</CONFIG>

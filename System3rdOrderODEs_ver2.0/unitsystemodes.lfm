@@ -1,0 +1,626 @@
+object Form1: TForm1
+  Left = 247
+  Height = 705
+  Top = 1
+  Width = 1161
+  Caption = 'System of Third-Order ODEs Solver by Lukas Setiawan'
+  ClientHeight = 705
+  ClientWidth = 1161
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 8
+    Width = 221
+    Caption = 'x '''''' = f ( t, x, y, z, p, q, r, s, u, v ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 17
+    Top = 32
+    Width = 220
+    Caption = 'y '''''' = g ( t, x, y, z, p, q, r, s, u, v ) ='
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 17
+    Top = 64
+    Width = 223
+    Caption = 'z '''''' = h ( t, x, y, z, p, q, r, s, u, v ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 53
+    Height = 17
+    Top = 138
+    Width = 24
+    Caption = 'a = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 53
+    Height = 17
+    Top = 170
+    Width = 21
+    Caption = 'b ='
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 17
+    Top = 234
+    Width = 50
+    Caption = 'x( t0 ) ='
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 19
+    Height = 17
+    Top = 264
+    Width = 58
+    Caption = 'y( t0 ) =  '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 27
+    Height = 17
+    Top = 296
+    Width = 53
+    Caption = 'z( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 225
+    Height = 17
+    Top = 136
+    Width = 66
+    Caption = 'x '' ( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 222
+    Height = 17
+    Top = 168
+    Width = 66
+    Caption = ' y '' ( t0 ) ='
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 225
+    Height = 17
+    Top = 200
+    Width = 65
+    Caption = 'z '' ( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 48
+    Height = 17
+    Top = 200
+    Width = 29
+    Caption = 'M = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object xEquationEdit: TEdit
+    Left = 248
+    Height = 25
+    Top = 8
+    Width = 409
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 0
+  end
+  object yEquationEdit: TEdit
+    Left = 249
+    Height = 25
+    Top = 40
+    Width = 408
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+  end
+  object zEquationEdit: TEdit
+    Left = 249
+    Height = 25
+    Top = 72
+    Width = 408
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 2
+  end
+  object aEdit: TEdit
+    Left = 86
+    Height = 25
+    Top = 136
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 3
+  end
+  object bEdit: TEdit
+    Left = 87
+    Height = 25
+    Top = 168
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 4
+  end
+  object xt0Edit: TEdit
+    Left = 86
+    Height = 25
+    Top = 232
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 6
+  end
+  object yt0Edit: TEdit
+    Left = 86
+    Height = 25
+    Top = 264
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 7
+  end
+  object zt0Edit: TEdit
+    Left = 87
+    Height = 25
+    Top = 296
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 8
+  end
+  object x1t0Edit: TEdit
+    Left = 304
+    Height = 25
+    Top = 136
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 9
+  end
+  object y1t0Edit: TEdit
+    Left = 304
+    Height = 25
+    Top = 168
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 10
+  end
+  object z1t0Edit: TEdit
+    Left = 304
+    Height = 25
+    Top = 200
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 11
+  end
+  object x2t0Edit: TEdit
+    Left = 304
+    Height = 25
+    Top = 234
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Label13: TLabel
+    Left = 42
+    Height = 1
+    Top = 121
+    Width = 1
+  end
+  object Label14: TLabel
+    Left = 16
+    Height = 17
+    Top = 105
+    Width = 379
+    Caption = '( where p = x '' ; q = y '' ;  r = z '' ; s = x '''' ;  u = y '''' ; v = z '''' ; )'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MEdit: TEdit
+    Left = 86
+    Height = 23
+    Top = 200
+    Width = 80
+    TabOrder = 5
+  end
+  object Label15: TLabel
+    Left = 225
+    Height = 17
+    Top = 230
+    Width = 70
+    Caption = 'x '''' ( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 221
+    Height = 17
+    Top = 264
+    Width = 70
+    Caption = 'y '''' ( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 221
+    Height = 17
+    Top = 302
+    Width = 69
+    Caption = 'z '''' ( t0 ) = '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object y2t0Edit: TEdit
+    Left = 305
+    Height = 23
+    Top = 264
+    Width = 80
+    TabOrder = 13
+  end
+  object z2t0Edit: TEdit
+    Left = 305
+    Height = 23
+    Top = 296
+    Width = 80
+    TabOrder = 14
+  end
+  object RunBut: TButton
+    Left = 16
+    Height = 33
+    Top = 352
+    Width = 75
+    Caption = 'Run'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+    OnClick = RunButClick
+  end
+  object ClearBut: TButton
+    Left = 136
+    Height = 33
+    Top = 352
+    Width = 75
+    Caption = 'Clear'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = ClearButClick
+  end
+  object exampleBut: TButton
+    Left = 256
+    Height = 33
+    Top = 352
+    Width = 73
+    Caption = 'Example'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = exampleButClick
+  end
+  object Label18: TLabel
+    Left = 16
+    Height = 17
+    Top = 408
+    Width = 46
+    Caption = 'Result :'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object ResultMemo: TMemo
+    Left = 16
+    Height = 264
+    Top = 432
+    Width = 641
+    Font.Height = -13
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 19
+  end
+  object Memo2: TMemo
+    Left = 864
+    Height = 168
+    Top = 32
+    Width = 424
+    Font.Height = -13
+    Lines.Strings = (
+      'System of Third-Order Ordinary Differential Equations(ODEs) Solver'
+      ''
+      'This solver using Runge-Kutta 4th-Order formula.'
+      ''
+      '   To approximate the solution of the initial value problem(ivp)'
+      ''
+      'x ''''''(t) = f ( t, x(t), y(t), z(t), x''(t), y ''(t), z''(t), x''''(t), y ''''(t), z ''''(t) ) '
+      'y ''''''(t) = g ( t, x(t), y(t), z(t), x''(t), y ''(t), z''(t), x''''(t), y ''''(t), z ''''(t) ) '
+      'z ''''''(t) = f ( t, x(t), y(t), z(t), x''(t), y ''(t), z''(t), x''''(t), y ''''(t), z ''''(t) ) '
+      ''
+      'with x(t0), y(t0), y(t0), z(t0), x''(t0), y''(t0), z''(t0), x''''(t0), y''''(t0), z''''(t0) known, over [ a, b ] and subinterval M. '
+      ''
+      'Note : '
+      '   Input the function to the equation box (x '''''' = ; y '''''' = ; z '''''' = ), in explicit form '
+      'where p = x '' ; q = y '' ;  r = z '' ; s = x '''' ;  u = y '''' ; v = z '''' ;'
+      ''
+      'Example : '
+      'We have  three equations ODEs as followed :'
+      ''
+      'x''''''(t) -2x''''(t)+x''(t)-x(t) = sin(t)+y(t)-z(t)'
+      'y''''''(t)+y''''(t)-4y''(t)+2y(t) = exp(t)+x(t)'
+      'z''''''(t)+3z''''(t)+2z''(t)-z(t) = cos(t)+x(t)-y(t)'
+      '   '
+      'on interval [0, 10]  with number of subinterval M=100 (or step size h=0.1) ; '
+      'with initial conditions as followed:'
+      'x(t0)=0 ; y(t0)=1 ; z(t0)=0 ; '
+      'x''(t0)=0 ; y''(t0)=0 ; z''(t0)=1 ; '
+      'x''''(t0)=1 ; y''''(t0)=0 ; z''''(t0)=0 ; '
+      ''
+      'From info above we got :'
+      'Input equation in explicit way (where p = x '' ; q = y '' ; etc.)'
+      'We obtain :'
+      ''
+      'x'''''' = 2*s-p+x+sin(t)+y-z ;'
+      'y'''''' = -u+4*q-2*y+exp(t)+x ;'
+      'z'''''' = -3*v-2*r+z+cos(t)+x-y'
+      ''
+      'a=0 ; b=10 ; M=80 ;'
+      'x(t0)=0 ; y(t0)=1 ; z(t0)=0 ; '
+      'x''(t0)=0 ; y''(t0)=0 ; z''(t0)=1 ; '
+      'x''''(t0)=1 ; y''''(t0)=0 ; z''''(t0)=0 ; '
+      ''
+      'Then we input all equations & initial values to the box. '
+      'Choose what the result will be view, then Run.'
+      'So we got the Result & Graphic.'
+      ''
+      'For demo just click example and Run.'
+      ''
+      'Tips :'
+      '-We can drag graph with right click on mouse.'
+      '-We also can zoom in use left mouse then make rectangle from left -top.'
+      '-To zoom out use left mouse then make rectangle from right -bottom.  '
+      ''
+    )
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 20
+  end
+  object Label19: TLabel
+    Left = 864
+    Height = 17
+    Top = 8
+    Width = 37
+    Caption = 'Help :'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object aboutBut: TButton
+    Left = 1304
+    Height = 25
+    Top = 32
+    Width = 48
+    Caption = 'about'
+    TabOrder = 21
+    OnClick = aboutButClick
+  end
+  object Chart1: TChart
+    Left = 672
+    Height = 504
+    Top = 201
+    Width = 680
+    AxisList = <    
+      item
+        Arrow.BaseLength = 10
+        Arrow.Visible = True
+        AxisPen.Width = 2
+        AxisPen.Visible = True
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Height = -16
+        Title.LabelFont.Orientation = 900
+        Title.LabelFont.Style = [fsBold]
+        Title.Visible = True
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Arrow.BaseLength = 10
+        Arrow.Visible = True
+        AxisPen.Width = 2
+        AxisPen.Visible = True
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Height = -16
+        Title.LabelFont.Style = [fsBold]
+        Title.Visible = True
+        Title.Caption = 't'
+        Title.LabelBrush.Style = bsClear
+      end>
+    Legend.Font.Height = -16
+    Legend.Font.Style = [fsBold]
+    Legend.Visible = True
+    Margins.Left = 10
+    Margins.Top = 10
+    Margins.Right = 10
+    Margins.Bottom = 10
+    Title.Font.Height = -16
+    Title.Font.Style = [fsBold]
+    Title.Text.Strings = (
+      'System of Third-Order ODEs'
+    )
+    Title.Visible = True
+    object Series1: TLineSeries
+      Legend.Visible = False
+      Title = 'x'
+      LinePen.Color = clBlue
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clBlue
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series2: TLineSeries
+      Legend.Visible = False
+      Title = 'y'
+      LinePen.Color = clRed
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clRed
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series3: TLineSeries
+      Legend.Visible = False
+      Title = 'z'
+      LinePen.Color = clLime
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clLime
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series4: TLineSeries
+      Legend.Visible = False
+      Title = 'x '''
+      LinePen.Color = clFuchsia
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clFuchsia
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series5: TLineSeries
+      Legend.Visible = False
+      Title = 'y '''
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clMaroon
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series6: TLineSeries
+      Legend.Visible = False
+      Title = 'z '''
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clYellow
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series7: TLineSeries
+      Legend.Visible = False
+      Title = 'x '''''
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clAqua
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series8: TLineSeries
+      Legend.Visible = False
+      Title = 'y '''''
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clTeal
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+    object Series9: TLineSeries
+      Legend.Visible = False
+      Title = 'z '''''
+      LinePen.Style = psClear
+      Pointer.Brush.Color = clSilver
+      Pointer.Style = psCircle
+      Pointer.Visible = True
+      ShowPoints = True
+    end
+  end
+  object ViewRadioGr: TRadioGroup
+    Left = 448
+    Height = 183
+    Top = 136
+    Width = 129
+    AutoFill = True
+    Caption = 'View'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 161
+    ClientWidth = 125
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ItemIndex = 0
+    Items.Strings = (
+      '1. x , y , z'
+      '2. x '' , y '' , z '''
+      '3. x '''' , y '''' , z '''''
+      '4. x , x '' , x '''''
+      '5. y , y '' , y '''''
+      '6. z , z '' , z '''''
+    )
+    ParentFont = False
+    TabOrder = 15
+  end
+  object ProcessTime: TLabel
+    Left = 448
+    Height = 17
+    Top = 352
+    Width = 93
+    Caption = 'Process Time : '
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object ArtFormula1: TArtFormula
+    UnQuotedString = False
+    Step = False
+    StoreLines = False
+    ExternGetVar = False
+    VarNameLiterals = '_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+    NoLeadingZero = False
+    ZeroEmptyString = False
+    AutoCreateVars = False
+    Left = 624
+    Top = 128
+  end
+end

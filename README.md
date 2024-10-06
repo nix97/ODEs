@@ -47,16 +47,16 @@ Source code in Delphi.
 Fourth-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) y '''' =f(t,y,y',y'',y''') with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.\
 Source code in Lasarus.
-
-
 <br>
 
-**6. System of Third-Order ODEs Solver**
+**7. System of Third-Order ODEs Solver**
 
 System of Third-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) 
-   <p>x'''=f(t,x,y,z,x',y',z',x'',y'',z'')</p>
-   
-y '''' = f(t,y,y',y'',y''') 
+   <br>
+   <p>x'''= f(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <p>y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <p>z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <br>
 with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.\
 Source code in Lasarus.

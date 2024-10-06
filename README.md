@@ -57,7 +57,6 @@ To approximate the solution of the initial value problem (ivp)
    <p>&nbsp&nbsp&nbsp y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <p>&nbsp&nbsp&nbsp z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
    
-with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   
-x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.
+with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.
 As the result we got values x,y,z,x',y',z',x'',y'' and z'' that ploted in the graph. 
 Source code in Lasarus.

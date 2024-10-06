@@ -12,13 +12,13 @@ Source code in C#.
 **2. Third-Order Differential Equation**
 
 Using Runge-Kutta fourth-order formula(RK4)
-Diff equation Y'''(t)=F(t,y,y',y'') use IVP(Initial Value Problem).
+Diff equation Y'''(t)=F(t,y,y',y'') use IVP(Initial Value Problem).<br>
 Source code in C#.
 <br>
 <br>
 **3.Linear Shooting Method**
 
-To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a , b], subinterval M by using the Runge-Kutta method of order 4.<br>
+To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a, b], subinterval M by using the Runge-Kutta method of order 4.<br>
 Source code in Lazarus/pascal.
 <br>
 <br>

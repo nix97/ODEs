@@ -5,7 +5,7 @@
 
 **1. System of Ordinary Differential Equation using Runge-Kutta fourth-order formula(RK4)**
 
-Solving of First-Order Two Differential Equation Y'(t)=F(t,x,y) and X'(t)=F(t,x,y) IVP(Initial Value Problem).\
+Solving of First-Order Two Differential Equation Y'(t)=F(t,x,y) and X'(t)=F(t,x,y) IVP(Initial Value Problem).
 Source code in C#.
 <br>
 <br>
@@ -18,7 +18,7 @@ Source code in C#.
 <br>
 **3.Linear Shooting Method**
 
-To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a , b], subinterval M by using the Runge-Kutta method of order 4.\
+To approximate the solution of the boundary value problem (bvp) x '' = p(t) x'(t) + q(t) x(t) + r(t) with x(a) = alpha and x(b) = beta over the interval [a , b], subinterval M by using the Runge-Kutta method of order 4.
 Source code in Lazarus/pascal.
 <br>
 <br>
@@ -46,7 +46,7 @@ Source code in Delphi.
 Fourth-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) y '''' =f(t,y,y',y'',y''') with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.
 As the result we got values y,y',y'' and y'''(plot in graph). 
-<p>Source code in Lasarus.<p/>
+Source code in Lasarus.
 <br><br>
 
 **7. System of Third-Order ODEs Solver**
@@ -60,4 +60,4 @@ To approximate the solution of the initial value problem (ivp)
    
 with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.
 As the result we got values x,y,z,x',y',z',x'',y'' and z'' that ploted in the graph. 
-<p>Source code in Lasarus.<p/>
+Source code in Lasarus.

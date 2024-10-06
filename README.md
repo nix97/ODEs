@@ -41,10 +41,21 @@ To approximate the solution of the initial value problem (ivp) y ' =f(x,y) with 
 Source code in Delphi.
 
 <br>
-<br>
 
 **6. Fourth-Order ODEs Solver**
 
 Fourth-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) y '''' =f(t,y,y',y'',y''') with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.\
+Source code in Lasarus.
+
+
+<br>
+
+**6. System of Third-Order ODEs Solver**
+
+System of Third-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
+To approximate the solution of the initial value problem (ivp) 
+   x'''=f(t,x,y,z,x',y',z',x'',y'',z'')
+y '''' = f(t,y,y',y'',y''') 
+with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.\
 Source code in Lasarus.

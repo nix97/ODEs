@@ -55,8 +55,9 @@ System of Third-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th
 To approximate the solution of the initial value problem (ivp) 
    <br>
    <p>&nbsp&nbsp&nbsp x'''= f(t,x,y,z,x',y',z',x'',y'',z'')</p>
-   <p>y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
-   <p>z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <p>&nbsp&nbsp&nbsp y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <p>&nbsp&nbsp&nbsp z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <br>
-with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.\
+with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   
+x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.\
 Source code in Lasarus.

@@ -38,14 +38,13 @@ g1 = h*eval(DiffEquation, var)
 
 First-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) y ' =f(x,y) with y(a)=yo over [a,b] and subinterval M.\
-Source code in Delphi.
+Source code in Delphi.<br>
 
 **6. Fourth-Order ODEs Solver**
 
 Fourth-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) y '''' =f(t,y,y',y'',y''') with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.
-As the result we got values y,y',y'' and y'''(plot in graph). Source code in Lasarus.
-
+As the result we got values y,y',y'' and y'''(plot in graph). Source code in Lasarus.<br>
 
 **7. System of Third-Order ODEs Solver**
 
@@ -55,7 +54,7 @@ To approximate the solution of the initial value problem (ivp)
    <p>&nbsp&nbsp&nbsp x'''= f(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <p>&nbsp&nbsp&nbsp y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <p>&nbsp&nbsp&nbsp z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
-   <br>
+   
 with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   
 x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.
 As the result we got values x,y,z,x',y',z',x'',y'' and z'' that ploted in the graph. 

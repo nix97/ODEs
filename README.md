@@ -54,7 +54,7 @@ Source code in Lasarus.
 System of Third-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK4) method.
 To approximate the solution of the initial value problem (ivp) 
    <br>
-   <p>x'''= f(t,x,y,z,x',y',z',x'',y'',z'')</p>
+   <p>&nbsp&nbsp&nbsp x'''= f(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <p>y'''= g(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <p>z'''= h(t,x,y,z,x',y',z',x'',y'',z'')</p>
    <br>

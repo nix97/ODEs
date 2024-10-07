@@ -47,7 +47,7 @@ Fourth-Order Ordinary Differential Equation (ivp) using Runge-Kutta 4th Order(RK
 To approximate the solution of the initial value problem (ivp) <br>
 y '''' =f(t,y,y',y'',y''') with initial condition y(t0), y'(t0), y''(t0) & y'''(t0) known as starting points, over [a,b] and subinterval M.
 As the result we got values y,y',y'' and y'''(plot in graph). <br>
-Source code in Lasarus.
+Source code in Lazarus.
 <br><br>
 
 **7. System of Third-Order ODEs Solver**
@@ -61,4 +61,4 @@ To approximate the solution of the initial value problem (ivp)
    
 with initial condition  x(t0), y(t0), z(t0), x'(t0), y'(t0), z'(t0)   x''(t0), y''(t0) and z''(t0) known, over [a,b] and subinterval M.
 As the result we got values x,y,z,x',y',z',x'',y'' and z'' that ploted in the graph. <br>
-Source code in Lasarus.
+Source code in Lazarus.

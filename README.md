@@ -1,5 +1,5 @@
 ## ODEs
-### Solve Ordinary Differential Equations(ODEs) using Numerical methods.
+### To Solve Ordinary Differential Equations(ODEs) using Numerical methods.
 <br>
 <br>
 

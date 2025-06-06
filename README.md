@@ -1,3 +1,7 @@
+![License](https://img.shields.io/github/license/nix97/odes)
+![Issues](https://img.shields.io/github/issues/nix97/odes)
+![Stars](https://img.shields.io/github/stars/nix97/odes)
+![Numerical Methods](https://img.shields.io/badge/ODEs-Runge--Kutta-blue)
 ## ODEs
 ### To Solve Ordinary Differential Equations(ODEs) using Numerical methods.
 <br>

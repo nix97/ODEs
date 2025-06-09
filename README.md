@@ -5,7 +5,7 @@
 ![language](https://img.shields.io/badge/language-Python-blue.svg)
 ![Lazarus](https://img.shields.io/badge/Built%20with-Lazarus-blue?logo=pascal)
 ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
-![language](https://img.shields.io/badge/language-Delphi-red.svg)
+![Delphi](https://img.shields.io/badge/Built%20with-Delphi-red?logo=pascal)
 
 ## ODEs
 ### To Solve Ordinary Differential Equations(ODEs) using Numerical methods.

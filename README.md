@@ -2,6 +2,11 @@
 ![Issues](https://img.shields.io/github/issues/nix97/odes)
 ![Stars](https://img.shields.io/github/stars/nix97/odes)
 ![Numerical Methods](https://img.shields.io/badge/ODEs-Runge--Kutta-blue)
+![language](https://img.shields.io/badge/language-Python-blue.svg)
+![Lazarus](https://img.shields.io/badge/Built%20with-Lazarus-blue?logo=pascal)
+![Language](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
+![language](https://img.shields.io/badge/language-Delphi-red.svg)
+
 ## ODEs
 ### To Solve Ordinary Differential Equations(ODEs) using Numerical methods.
 <br>
